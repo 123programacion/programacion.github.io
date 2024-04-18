@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<html >
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-U-A-Compatible"content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Registro</title>
+</head>
+<body>
+	<form class="container text-center mt-5">
+		<h1 class="h1">Formulario de Registro</h1><br>	
+		<label class="label">Primer Nombre</label><br>
+		<input type="text" name="Primer Nombre" required><br>
+		<label class="label">Segundo Nombre</label><br>
+		<input type="text" name="Segundo Nombre"><br>
+		<label class="label">Primer Apellido</label><br>
+		<input type="text" name="Primer Apellido" required><br>
+		<label class="label">Segundo Apellido</label><br>
+		<input type="text" name="Segundo Apellido"><br><br>
+		<label>Tipo de Documento</label>
+	<select name="Tipo de Documento">
+		<option value="CC">Cedula de Ciudadania</option>
+		<option value="CE">Cedula de Extrangeria</option>
+		<option value="TI">Tarjeta de identidad</option>
+		<option value="RC">Registro Civil</option>
+		<option value="Nit">Numero de Identificacion Tributaria</option>
+		<option value="PPT">Permiso Por Proteccion Temporal</option><br>
+	</select>
+		<label>	Numero de Documento</label>
+		<input type="number" name="Numero de Documento" required><br><br>
+		<label>Email</label>
+		<input type="text" name="Email" placeholder="john@doe.com"><br><br>
+		<label>Numero de Celular</label>
+		<input type="number" name="Numero de Celular"><br><br>
+		<label>Genero</label>
+		<input type="radio" value="genero" name="Genero" checked>Masculino
+		<input type="radio" value="genero" name="Genero">Femenino
+		<input type="radio" value="genero" name="Genero">Otro <br>
+		<br><label>Foto Usuario</label>
+		<input type="file" name="Foto Usuario"><br><br>
+		<br><label>Comentario</label>
+		<textarea name="comentario" cols="50" rows="5" minlength="100" maxlength="500" placeholder="Escribe aqui tu comentario"></textarea><br>
+		<br><input type="checkbox" name="terminos" value="yes"><label>Acepto los terminos y condiciones</label><br>
+		<input type="submit" value="Enviar"><br>
+	</form>
+</body>
+</html>

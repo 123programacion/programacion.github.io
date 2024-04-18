@@ -1,0 +1,91 @@
+body {
+  background-color: #827F7E;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url('../Imagenes/img8.jpg'); /* Ruta de la imagen que quieres usar como fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-family: "Arial Black", sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(50% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: calc(50% - 5px);
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Color de fondo llamativo para el botón */
+  color: white; /* Color del texto del botón */
+}
+
+a {
+   color: #4CAF50; /* Color del enlace */
+}
+
+.label {
+    background: -webkit-linear-gradient(white,silver) ;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: gray;
+}
+
+.h1 {
+    background: -webkit-linear-gradient(black,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: gray;
+}
+
+#demo.carousel {
+  height: 100px; /* Ajusta este valor según tus necesidades */
+}
+
+input[type="submit"] {
+  background-color: #06A399; /* Color de fondo para el botón */
+  color: white; /* Color del texto del botón */
+  padding: 20px 10px; /* Ajusta el relleno para un tamaño y aspecto adecuado */
+  border: none; /* Elimina el borde del botón si lo deseas */
+  border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+p {
+  font-family: Arial, sans-serif; /* Cambia la fuente del párrafo */
+  font-size: 16px; /* Ajusta el tamaño del texto */
+  line-height: 1.5; /* Establece el espaciado entre líneas */
+  color: #B4BEC0; /* Cambia el color del texto */
+  margin-bottom: 20px; /* Agrega espacio debajo del párrafo */
+}
+
+.containercontainermt-3 {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url('../Imagenes/img8.jpg'); /* Ruta de la imagen que quieres usar como fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
